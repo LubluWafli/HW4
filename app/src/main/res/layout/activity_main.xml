@@ -10,7 +10,7 @@
     <FrameLayout
         android:id="@+id/activityMain"
         android:layout_width="match_parent"
-        android:layout_height="800dp"
+        android:layout_height="600dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
