@@ -24,26 +24,26 @@
     </FrameLayout>
 
 
-    <Button
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/createNoteButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:text="Создать заметку"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/activityMain" />
+        android:layout_gravity="end|bottom"
+        android:layout_marginStart="28dp"
+        android:contentDescription=""
+        android:src="@drawable/note_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/textInput"
+        app:layout_constraintStart_toEndOf="@+id/textInput" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/textInput"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="12dp"
         android:hint="Начните вводить заметку..."
-        app:layout_constraintBottom_toTopOf="@+id/createNoteButton"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/activityMain" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -19,20 +19,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="10dp"
-            android:src="@drawable/note_icon"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
         <Button
             android:id="@+id/deleteButton"
             android:layout_width="30dp"
             android:layout_marginTop="0dp"
-            android:layout_marginLeft="55dp"
+            android:layout_marginLeft="10dp"
             android:layout_height="40dp"
             android:text="✔"
             android:textSize="8sp"
@@ -45,9 +36,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginStart="90dp"
+            android:layout_marginStart="45dp"
             android:textSize="15sp"
-            app:layout_constraintStart_toEndOf="@id/imageView"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
